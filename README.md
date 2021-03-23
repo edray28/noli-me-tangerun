@@ -1,4 +1,4 @@
-<h2># NoliMeTangerun</h2>
+<h2># NoliMeTangerun Source Code</h2>
 <h3>G12 Unity Endless Runner Game 2.0</h3>
 <p>SHS Group Expo project</p>
 <code> Screenshots </code>
