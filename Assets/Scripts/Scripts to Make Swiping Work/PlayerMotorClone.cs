@@ -103,7 +103,7 @@ public class PlayerMotorClone : MonoBehaviour
                 anim.SetTrigger("Jump");
                 audios.PlayOneShot(Jump, Volume);
                 alreadyPlayed = true;
-                audios.volume = PlayerPrefs.GetFloat("SFX");
+             // FIX SOUND  audios.volume = PlayerPrefs.GetFloat("SFX");
                 verticalVelocity = jumpForce;
             }
 
@@ -117,7 +117,7 @@ public class PlayerMotorClone : MonoBehaviour
             {
                 StartSlide();
                 Invoke("StopSlide", 1.0f);
-                audios.PlayOneShot(Slide, Volume);
+             // FIX SOUND     audios.PlayOneShot(Slide, Volume);
                 alreadyPlayed = true;
                 verticalVelocity = -jumpForce;
                 
@@ -208,7 +208,7 @@ public class PlayerMotorClone : MonoBehaviour
         {
             audios.volume = 1;
             audios.PlayOneShot(Dead, Volume);
-            audios.volume = PlayerPrefs.GetFloat("SFX");
+         // FIX SOUND     audios.volume = PlayerPrefs.GetFloat("SFX");
         }
         
 
