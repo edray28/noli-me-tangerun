@@ -32,7 +32,7 @@ public class Coin : MonoBehaviour
             
             audios.clip = SoundToPlay;
             audios.Play();
-            audios.volume = PlayerPrefs.GetFloat("SFX");
+       //FIX SOUND ISSUE     audios.volume = PlayerPrefs.GetFloat("SFX");
             anim.SetTrigger("Collected");
             
 
